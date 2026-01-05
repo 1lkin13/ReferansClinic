@@ -1,0 +1,86 @@
+{
+  "header": {
+    "topBar": {
+      "login": "Login",
+      "languages": [
+        { "code": "az", "label": "Az" },
+        { "code": "ru", "label": "Ru" },
+        { "code": "en", "label": "Eng" }
+      ]
+    },
+    "contact": {
+      "phone": "*0111",
+      "label": "Call Center"
+    },
+    "navigation": [
+      {
+        "id": "haqqimizda",
+        "label": "About Us",
+        "path": "/haqqimizda",
+        "children": [
+          { "id": "tariximiz", "label": "Our History", "path": "/haqqimizda/tariximiz" },
+          { "id": "missiya", "label": "Mission & Vision", "path": "/haqqimizda/missiya" },
+          { "id": "keyfiyyet_siyaseti", "label": "Quality Policy", "path": "/haqqimizda/keyfiyyet-siyaseti" },
+          { "id": "keyfiyyete_nezaret", "label": "Quality Control", "path": "/haqqimizda/keyfiyyete-nezaret" },
+          { "id": "sertifikatlar", "label": "Certificates", "path": "/haqqimizda/sertifikatlar" },
+          { "id": "beynelxalq_emekdasliq", "label": "International Cooperation", "path": "/haqqimizda/beynelxalq-emekdasliq" },
+          {
+            "id": "merkezlerimiz",
+            "label": "Our Centers",
+            "path": "/haqqimizda/merkezlerimiz",
+            "children": [
+              { "id": "basgicellenme", "label": "Vertigo Center", "path": "/merkezlerimiz/basgicellenme" },
+              { "id": "estetik", "label": "Aesthetic & Plastic Surgery", "path": "/merkezlerimiz/estetik" },
+              { "id": "ses", "label": "Voice Center", "path": "/merkezlerimiz/ses" },
+              { "id": "esitme", "label": "Hearing Center", "path": "/merkezlerimiz/esitme" },
+              { "id": "uz_cene", "label": "Maxillofacial Surgery", "path": "/merkezlerimiz/uz-cene" },
+              { "id": "astma", "label": "Asthma & Lung Center", "path": "/merkezlerimiz/astma" },
+              { "id": "yuxu", "label": "Sleep Center", "path": "/merkezlerimiz/yuxu" },
+              { "id": "koxlear", "label": "Cochlear Implantation", "path": "/merkezlerimiz/koxlear" }
+            ]
+          },
+          { "id": "hekimlerimiz", "label": "Our Doctors", "path": "/haqqimizda/hekimlerimiz" },
+          { "id": "memnunluq", "label": "Satisfaction Survey", "path": "/haqqimizda/memnunluq" }
+        ]
+      },
+      { "id": "xidmetler", "label": "Services", "path": "/xidmetler" },
+      { "id": "referans_esitme", "label": "Referans Hearing", "path": "/referans-esitme" },
+      { "id": "xeberler", "label": "News", "path": "/xeberler" },
+      { "id": "elaqe", "label": "Contact", "path": "/elaqe" }
+    ]
+  },
+  "banner": {
+    "title": "The Only Address for Specialized Medical Service!",
+    "button": "All Services"
+  },
+  "infoSection": [
+    {
+      "id": 1,
+      "title": "First and Only in Caucasus",
+      "subtitle": "specialized center"
+    },
+    {
+      "id": 2,
+      "title": "12+ years",
+      "subtitle": "experience"
+    },
+    {
+      "id": 3,
+      "title": "Patient",
+      "subtitle": "oriented service"
+    }
+  ],
+  "footer": {
+    "tagline": "First and only in Caucasus\nEAR NOSE THROAT AND\nHEAD-NECK CENTER!",
+    "contactTitle": "CONTACT",
+    "phone": "*0111",
+    "email": "info@lorhospital.az",
+    "address": "Baku city, Narimanov dist., Ahmed\nRajabli 19K, AZ1075",
+    "subscribeTitle": "SUBSCRIBE",
+    "social": {
+      "facebook": "Lor Hospital",
+      "instagram": "Lor Hospital"
+    },
+    "subscribePlaceholder": "Have a question?"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "header": {
+    "topBar": {
+      "login": "Войти",
+      "languages": [
+        { "code": "az", "label": "Az" },
+        { "code": "ru", "label": "Ru" },
+        { "code": "en", "label": "Eng" }
+      ]
+    },
+    "contact": {
+      "phone": "*0111",
+      "label": "Колл-центр"
+    },
+    "navigation": [
+      {
+        "id": "haqqimizda",
+        "label": "О нас",
+        "path": "/haqqimizda",
+        "children": [
+          { "id": "tariximiz", "label": "Наша история", "path": "/haqqimizda/tariximiz" },
+          { "id": "missiya", "label": "Миссия и цель", "path": "/haqqimizda/missiya" },
+          { "id": "keyfiyyet_siyaseti", "label": "Политика качества", "path": "/haqqimizda/keyfiyyet-siyaseti" },
+          { "id": "keyfiyyete_nezaret", "label": "Контроль качества", "path": "/haqqimizda/keyfiyyete-nezaret" },
+          { "id": "sertifikatlar", "label": "Сертификаты", "path": "/haqqimizda/sertifikatlar" },
+          { "id": "beynelxalq_emekdasliq", "label": "Международное сотрудничество", "path": "/haqqimizda/beynelxalq-emekdasliq" },
+          {
+            "id": "merkezlerimiz",
+            "label": "Наши центры",
+            "path": "/haqqimizda/merkezlerimiz",
+            "children": [
+              { "id": "basgicellenme", "label": "Центр головокружения", "path": "/merkezlerimiz/basgicellenme" },
+              { "id": "estetik", "label": "Центр эстетической и пластической хирургии", "path": "/merkezlerimiz/estetik" },
+              { "id": "ses", "label": "Голосовой центр", "path": "/merkezlerimiz/ses" },
+              { "id": "esitme", "label": "Слуховой центр", "path": "/merkezlerimiz/esitme" },
+              { "id": "uz_cene", "label": "Центр челюстно-лицевой хирургии", "path": "/merkezlerimiz/uz-cene" },
+              { "id": "astma", "label": "Центр астмы и легких", "path": "/merkezlerimiz/astma" },
+              { "id": "yuxu", "label": "Центр сна", "path": "/merkezlerimiz/yuxu" },
+              { "id": "koxlear", "label": "Кохлеарная имплантация", "path": "/merkezlerimiz/koxlear" }
+            ]
+          },
+          { "id": "hekimlerimiz", "label": "Наши врачи", "path": "/haqqimizda/hekimlerimiz" },
+          { "id": "memnunluq", "label": "Анкета удовлетворенности", "path": "/haqqimizda/memnunluq" }
+        ]
+      },
+      { "id": "xidmetler", "label": "Услуги", "path": "/xidmetler" },
+      { "id": "referans_esitme", "label": "Референс Слух", "path": "/referans-esitme" },
+      { "id": "xeberler", "label": "Новости", "path": "/xeberler" },
+      { "id": "elaqe", "label": "Контакты", "path": "/elaqe" }
+    ]
+  },
+  "banner": {
+    "title": "Единственный адрес специализированной медицинской помощи!",
+    "button": "Все услуги"
+  },
+  "infoSection": [
+    {
+      "id": 1,
+      "title": "Первый и единственный на Кавказе",
+      "subtitle": "специализированный центр"
+    },
+    {
+      "id": 2,
+      "title": "12+ лет",
+      "subtitle": "опыта"
+    },
+    {
+      "id": 3,
+      "title": "Пациент",
+      "subtitle": "ориентированный сервис"
+    }
+  ],
+  "footer": {
+    "tagline": "Первый и единственный на Кавказе\nЦЕНТР УХА ГОРЛА НОСА И\nГОЛОВЫ-ШЕИ!",
+    "contactTitle": "КОНТАКТЫ",
+    "phone": "*0111",
+    "email": "info@lorhospital.az",
+    "address": "г. Баку, Наримановский р-н, Ахмед\nРаджабли 19K, AZ1075",
+    "subscribeTitle": "ПОДПИСАТЬСЯ",
+    "social": {
+      "facebook": "Lor Hospital",
+      "instagram": "Lor Hospital"
+    },
+    "subscribePlaceholder": "У вас есть вопрос?"
+  }
+}
