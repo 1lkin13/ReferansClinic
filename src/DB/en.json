@@ -82,5 +82,135 @@
       "instagram": "Lor Hospital"
     },
     "subscribePlaceholder": "Have a question?"
+  },
+  "newsSection": {
+    "title": "Useful Information",
+    "readMore": "Read More",
+    "items": {
+      "1": {
+        "title": "Ear Diseases",
+        "date": "March 28, 2025"
+      },
+      "2": {
+        "title": "Nose Diseases",
+        "date": "June 24, 2025"
+      },
+      "3": {
+        "title": "Head and Neck Surgery",
+        "date": "August 1, 2025"
+      },
+      "4": {
+        "title": "Anesthesia during ENT surgery",
+        "date": "March 28, 2025"
+      }
+    }
+  },
+  "whyUsSection": {
+    "title": "Why Lor Hospital?",
+    "p1": "Lor Hospital is the first and only specialized Ear Nose Throat and Head-Neck Center in Azerbaijan and the Caucasus, operating since 2013. With the responsibility of being the first such center in Azerbaijan, accurate diagnoses are made and necessary treatments are carried out for our patients after polyclinic, laboratory, and functional diagnostic examinations.",
+    "p2": "Based on the concept of perfect service, we ensure the high quality of our services with modern treatment and diagnostic methods in accordance with European standards.",
+    "p3": "The use of endoscopic, microscopic, and laser technologies allows for accurate diagnosis, minimal trauma during even the most difficult operations, shortening the recovery period, and returning to normal daily life in a short time."
+  },
+  "testimonialSection": {
+    "title": "Patient Satisfaction",
+    "reviews": [
+      {
+        "name": "Aysel Bagishli",
+        "review": "A hospital we have been visiting for nearly 5 years and are satisfied with the service! Good luck to everyone."
+      },
+      {
+        "name": "Aysel Bagishli",
+        "review": "A hospital we have been visiting for nearly 5 years and are satisfied with the service! Good luck to everyone."
+      },
+      {
+        "name": "Aysel Bagishli",
+        "review": "A hospital we have been visiting for nearly 5 years and are satisfied with the service! Good luck to everyone."
+      }
+    ]
+  },
+  "doctorSection": {
+    "title": "Doctors",
+    "items": {
+      "1": {
+        "name": "Dr. Aqil Agayev",
+        "specialty": "ENT Surgeon, Otoneurologist"
+      },
+      "2": {
+        "name": "Dr. Nigar Muradova",
+        "specialty": "ENT Surgeon, Otoneurologist"
+      },
+      "3": {
+        "name": "Dr. Khayyam Musayev",
+        "specialty": "ENT and Head & Neck Surgery Specialist"
+      }
+    }
+  },
+  "aboutPage": {
+    "doctors": {
+      "1": {
+        "name": "Dr. Nigar Muradova",
+        "specialty": "ENT Surgeon, Otoneurologist"
+      },
+      "2": {
+        "name": "Dr. Nuray Sukurova",
+        "specialty": "ENT Surgeon"
+      },
+      "3": {
+        "name": "Dr. Kamila Allahverdiyeva",
+        "specialty": "ENT Doctor"
+      },
+      "4": {
+        "name": "Dr. Mahtaban Gadimali",
+        "specialty": "ENT Surgeon"
+      }
+    },
+    "emptyText": "There is no design here",
+    "searchPlaceholder": "Doctor's Name, Surname",
+    "doctorDetails": {
+      "1": {
+        "experience": "5 years",
+        "patientCount": "0",
+        "reviewsCount": "0",
+        "position": "ENT Surgeon, Otoneurologist",
+        "center": "Vertigo Center",
+        "education": [
+          "Graduated from Azerbaijan Medical University with honors in 2010.",
+          "Completed internship in ENT specialty in 2010-2011.",
+          "Specialized in ENT department at Ege University, Izmir, Turkey in 2015.",
+          "Received training at Neurotology clinic, Başkent University, Ankara, Turkey in 2018-2019."
+        ],
+        "treatments": [
+          "Pediatric surgeries - Tonsillectomy, Adenoidectomy, Ear tube insertion",
+          "Septoplasty (nasal septum correction)",
+          "Radiofrequency application to nasal turbinates",
+          "Nasal fracture surgery (open and closed reduction)",
+          "Polypotomy; FESS (Functional Endoscopic Sinus Surgery)",
+          "Rhinoplasty",
+          "Ear auricle plasty",
+          "Tympanoplasty",
+          "Myringoplasty",
+          "Mastoidectomy",
+          "Stapedectomy",
+          "Ear tumors",
+          "Choanal atresia"
+        ]
+      }
+    },
+    "detailsLabels": {
+      "experience": "Experience",
+      "patients": "Patient count",
+      "reviews": "Reviews",
+      "tabs": {
+        "info": "Information",
+        "articles": "Doctor's articles",
+        "reviews": "Reviews"
+      },
+      "fields": {
+        "position": "Position",
+        "center": "Center",
+        "education": "Education",
+        "treatments": "Examination and treatment directions"
+      }
+    }
   }
 }

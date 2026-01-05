@@ -1,14 +1,14 @@
 import React from 'react'
 import { useLanguage } from '../../context/LanguageContext.tsx'
-import footerLogo from '../../assets/footer-logo.svg'
-import fbIcon from '../../assets/facebook icon.svg'
-import instIcon from '../../assets/instagram icon.svg'
-import locationIcon from '../../assets/location icon.svg'
-import mailIcon from '../../assets/mail icon.svg'
-import phoneIcon from '../../assets/phone-icon.svg'
-import arrowOutward from '../../assets/arrow_outward.svg'
-import youtubeIcon from '../../assets/youtube-icon.svg'
-import whatsappIcon from '../../assets/whatsapp-icon.svg'
+import footerLogo from '../../assets/Footer/footer-logo.svg'
+import fbIcon from '../../assets/Footer/facebook icon.svg'
+import instIcon from '../../assets/Footer/instagram icon.svg'
+import locationIcon from '../../assets/Footer/location icon.svg'
+import mailIcon from '../../assets/Footer/mail icon.svg'
+import phoneIcon from '../../assets/Footer/phone-icon.svg'
+import arrowOutward from '../../assets/Footer/arrow_outward.svg'
+import youtubeIcon from '../../assets/Footer/youtube-icon.svg'
+import whatsappIcon from '../../assets/Footer/whatsapp-icon.svg'
 
 const Footer: React.FC = () => {
   const { data } = useLanguage()

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useLanguage } from '../../context/LanguageContext.tsx'
 import moni from '../../assets/moni.png'
-import arrowOutward from '../../assets/arrow_outward.svg'
+import arrowOutward from '../../assets/Footer/arrow_outward.svg'
 
 const Banner: React.FC = () => {
   const { data } = useLanguage()

@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { useLanguage } from '../../context/LanguageContext.tsx'
-import instIcon from '../../assets/topbar-inst-icon.svg'
-import fbIcon from '../../assets/topbar-fb-icon.svg'
-import langIcon from '../../assets/topbar-language-icon.svg'
-import loginIcon from '../../assets/topbar-login-icon.svg'
+import instIcon from '../../assets/Nav/topbar-inst-icon.svg'
+import fbIcon from '../../assets/Nav/topbar-fb-icon.svg'
+import langIcon from '../../assets/Nav/topbar-language-icon.svg'
+import loginIcon from '../../assets/Nav/topbar-login-icon.svg'
 
 const TopBar: React.FC = () => {
   const { data, currentLanguage, changeLanguage } = useLanguage()

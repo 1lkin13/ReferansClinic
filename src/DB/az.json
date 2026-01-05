@@ -82,5 +82,135 @@
       "instagram": "Lor Hospital"
     },
     "subscribePlaceholder": "Sualınız var?"
+  },
+  "newsSection": {
+    "title": "Faydalı Məlumatlar",
+    "readMore": "Ətraflı",
+    "items": {
+      "1": {
+        "title": "Qulaq xəstəlikləri",
+        "date": "28 mart 2025"
+      },
+      "2": {
+        "title": "Burun xəstəlikləri",
+        "date": "24 iyun 2025"
+      },
+      "3": {
+        "title": "Baş-Boyun cərrahiyyəsi",
+        "date": "1 avqust 2025"
+      },
+      "4": {
+        "title": "Lor əməliyyatı zamanı anesteziya",
+        "date": "28 mart 2025"
+      }
+    }
+  },
+  "whyUsSection": {
+    "title": "Nəyə görə Lor Hospital?",
+    "p1": "Lor Hospital – 2013-cü ildən fəaliyyət göstərən Azərbaycanın eləcə də Qafqazın ilk və yeganə ixtisaslaşmış Qulaq Burun Boğaz və Baş-Boyun Mərkəzidir. Azərbaycanda ilk Qulaq Burun Boğaz və Baş-Boyun Mərkəzi olmağımızın vermiş olduğu məsuliyyət ilə poliklinika, laboratoriya, funksional diaqnostika müayinələrindən sonra pasiyentlərimizə daha dəqiq diaqnoz qoyularaq lazımi müalicələr aparılır.",
+    "p2": "Qüsursuz xidmət anlayışını əsas tutaraq Avropa standartlarına uyğun müasir müalicə və diaqnostika üsulları ilə xidmətlərimizin yüksək keyfiyyətini təmin edirik.",
+    "p3": "Endoskopik, mikroskopik və lazer texnologiyalarının istifadəsi dəqiq diaqnostikaya, hətta ən çətin əməliyyatlar zamanı minimal travmaya, bərpa dövrünü qısaltmağa və qısa müddətdə normal gündəlik həyata qayıtmağa imkan yaradır."
+  },
+  "testimonialSection": {
+    "title": "Pasiyent məmnunluğu",
+    "reviews": [
+      {
+        "name": "Aysel Bağışlı",
+        "review": "5 ilə yaxındır müraciət etdiyimiz və xidmətindən razı qaldığımız hospital! Hər birinizə uğurlar."
+      },
+      {
+        "name": "Aysel Bağışlı",
+        "review": "5 ilə yaxındır müraciət etdiyimiz və xidmətindən razı qaldığımız hospital! Hər birinizə uğurlar."
+      },
+      {
+        "name": "Aysel Bağışlı",
+        "review": "5 ilə yaxındır müraciət etdiyimiz və xidmətindən razı qaldığımız hospital! Hər birinizə uğurlar."
+      }
+    ]
+  },
+  "doctorSection": {
+    "title": "Həkimlər",
+    "items": {
+      "1": {
+        "name": "Dr. Aqil Ağayev",
+        "specialty": "Qulaq Burun Boğaz cərrahı, Otonevroloq"
+      },
+      "2": {
+        "name": "Dr. Nigar Muradova",
+        "specialty": "Qulaq Burun Boğaz cərrahı, Otonevroloq"
+      },
+      "3": {
+        "name": "Dr. Xəyyam Musayev",
+        "specialty": "Qulaq Burun Boğaz və Baş-Boyun Cərrahiyyəsi uzmanı"
+      }
+    }
+  },
+  "aboutPage": {
+    "doctors": {
+      "1": {
+        "name": "Dr. Nigar Muradova",
+        "specialty": "Qulaq Burun Boğaz cərrahı, Otonevroloq"
+      },
+      "2": {
+        "name": "Dr. Nuray Şükürova",
+        "specialty": "Qulaq Burun Boğaz cərrahı"
+      },
+      "3": {
+        "name": "Dr. Kamilə Allahverdiyeva",
+        "specialty": "Qulaq Burun Boğaz həkimi"
+      },
+      "4": {
+        "name": "Dr. Mahtaban Qədiməli",
+        "specialty": "Qulaq Burun Boğaz cərrahı"
+      }
+    },
+    "doctorDetails": {
+      "1": {
+        "experience": "5 il",
+        "patientCount": "0",
+        "reviewsCount": "0",
+        "position": "Qulaq Burun Boğaz Cərrahı, Otonevroloq",
+        "center": "Başgicəllənmə Mərkəzi",
+        "education": [
+          "2010-cu ildə Azərbaycan Tibb Universiteti fərqlənmə diplomu ilə bitirmişdir.",
+          "2010-2011 ci illərdə Qulaq Burun Boğaz ixtisası üzrə internatura keçmişdir.",
+          "2015 ci ildə Türkiyə, İzmir Ege Universiteti Qulaq Burun Boğaz anabilim dalında ixtisaslaşmışdır.",
+          "2018-2019 cu illərdə Türkiyə Ankara, Başkent Universiteti Nörotoloji kliniyinde eğitim almışdır."
+        ],
+        "treatments": [
+          "Pediatrik əməliyyatlar- Tonzillektomiya, Adenoidektomiya, Qulaq pərdəsinə tüp taxılması",
+          "Septoplastika (burun çəpərinin düzəldilməsi)",
+          "Burun balıqqulaqlarına radiofrekans tətbiqi (konxalara)",
+          "Burun sınığı əməliyyatı (açıq və qapalı reduksiya)",
+          "Polipotomiya; FESC (funksional endoskopik sinus cərrahiyyəsi)",
+          "Rinoplastika",
+          "Qulaq seyvanının plastikası",
+          "Timpanoplastika",
+          "Miringoplastika",
+          "Mastoidektomiya",
+          "Stapedektomiya",
+          "Qulaq törəmələri",
+          "Xoanal atreziya"
+        ]
+      }
+    },
+    "emptyText": "Buranın dizaynı yoxdur",
+    "searchPlaceholder": "Həkimin Adı, Soyadı",
+    "detailsLabels": {
+      "experience": "Təcrübə",
+      "patients": "Pasiyent sayı",
+      "reviews": "Rəylər",
+      "tabs": {
+        "info": "Məlumat",
+        "articles": "Həkimin məqalələri",
+        "reviews": "Rəylər"
+      },
+      "fields": {
+        "position": "Vəzifə",
+        "center": "Mərkəz",
+        "education": "Təhsil",
+        "treatments": "Müayinə və müalicə istiqamətləri"
+      }
+    }
   }
 }

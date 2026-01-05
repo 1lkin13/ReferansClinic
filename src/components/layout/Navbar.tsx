@@ -4,7 +4,7 @@ import Dropdown from '../UI/Dropdown'
 import Input from '../UI/Input'
 import Button from '../UI/Button'
 import logo from '../../assets/Logo.svg'
-import searchIcon from '../../assets/search-icon.svg'
+import searchIcon from '../../assets/Nav/search-icon.svg'
 
 const Navbar: React.FC = () => {
   const { data } = useLanguage()
