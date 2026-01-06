@@ -1,12 +1,13 @@
-import { Routes, Route } from 'react-router-dom'
-import Header from './components/layout/Header'
-import Footer from './components/layout/Footer'
-import { LanguageProvider } from './context/LanguageContext.tsx'
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
+import { LanguageProvider } from "./context/LanguageContext.tsx";
 
-// Pages
-import Home from './pages/Home'
-import DoctorDetails from './pages/DoctorDetails'
-import About from './pages/About'
+import Home from "./pages/Home";
+import DoctorDetails from "./pages/DoctorDetails";
+import About from "./pages/About";
+
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -16,14 +17,15 @@ function App() {
         <div className="grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/haqqimizda" element={<About />} />
+            <Route path="/about" element={<About />} />
             <Route path="/doctors/:id" element={<DoctorDetails />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
         <Footer />
       </div>
     </LanguageProvider>
-  )
+  );
 }
 
-export default App 
+export default App;

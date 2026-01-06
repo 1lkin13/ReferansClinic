@@ -12,22 +12,23 @@
       "phone": "*0111",
       "label": "Колл-центр"
     },
+    "searchPlaceholder": "Поиск",
     "navigation": [
       {
-        "id": "haqqimizda",
+        "id": "about",
         "label": "О нас",
-        "path": "/haqqimizda",
+        "path": "/about",
         "children": [
-          { "id": "tariximiz", "label": "Наша история", "path": "/haqqimizda/tariximiz" },
-          { "id": "missiya", "label": "Миссия и цель", "path": "/haqqimizda/missiya" },
-          { "id": "keyfiyyet_siyaseti", "label": "Политика качества", "path": "/haqqimizda/keyfiyyet-siyaseti" },
-          { "id": "keyfiyyete_nezaret", "label": "Контроль качества", "path": "/haqqimizda/keyfiyyete-nezaret" },
-          { "id": "sertifikatlar", "label": "Сертификаты", "path": "/haqqimizda/sertifikatlar" },
-          { "id": "beynelxalq_emekdasliq", "label": "Международное сотрудничество", "path": "/haqqimizda/beynelxalq-emekdasliq" },
+          { "id": "tariximiz", "label": "Наша история", "path": "/about/tariximiz" },
+          { "id": "missiya", "label": "Миссия и цель", "path": "/about/missiya" },
+          { "id": "keyfiyyet_siyaseti", "label": "Политика качества", "path": "/about/keyfiyyet-siyaseti" },
+          { "id": "keyfiyyete_nezaret", "label": "Контроль качества", "path": "/about/keyfiyyete-nezaret" },
+          { "id": "sertifikatlar", "label": "Сертификаты", "path": "/about/sertifikatlar" },
+          { "id": "beynelxalq_emekdasliq", "label": "Международное сотрудничество", "path": "/about/beynelxalq-emekdasliq" },
           {
             "id": "merkezlerimiz",
             "label": "Наши центры",
-            "path": "/haqqimizda/merkezlerimiz",
+            "path": "/about/merkezlerimiz",
             "children": [
               { "id": "basgicellenme", "label": "Центр головокружения", "path": "/merkezlerimiz/basgicellenme" },
               { "id": "estetik", "label": "Центр эстетической и пластической хирургии", "path": "/merkezlerimiz/estetik" },
@@ -39,8 +40,8 @@
               { "id": "koxlear", "label": "Кохлеарная имплантация", "path": "/merkezlerimiz/koxlear" }
             ]
           },
-          { "id": "hekimlerimiz", "label": "Наши врачи", "path": "/haqqimizda/hekimlerimiz" },
-          { "id": "memnunluq", "label": "Анкета удовлетворенности", "path": "/haqqimizda/memnunluq" }
+          { "id": "hekimlerimiz", "label": "Наши врачи", "path": "/about/hekimlerimiz" },
+          { "id": "memnunluq", "label": "Анкета удовлетворенности", "path": "/about/memnunluq" }
         ]
       },
       { "id": "xidmetler", "label": "Услуги", "path": "/xidmetler" },
@@ -102,6 +103,14 @@
       "4": {
         "title": "Анестезия при ЛОР-операциях",
         "date": "28 марта 2025"
+      },
+      "5": {
+        "title": "Болезни носа",
+        "date": "24 июня 2025"
+      },
+      "6": {
+        "title": "Хирургия головы и шеи",
+        "date": "1 августа 2025"
       }
     }
   },
@@ -212,5 +221,11 @@
         "treatments": "Направления обследования и лечения"
       }
     }
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Страница не найдена",
+    "message": "Страница, которую вы ищете, возможно, была удалена или ее адрес изменился.",
+    "button": "Вернуться на главную"
   }
 }

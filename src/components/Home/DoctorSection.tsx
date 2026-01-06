@@ -97,7 +97,7 @@ const DoctorSection: React.FC = () => {
                   
                   {/* Text Container - White area at bottom */}
                   <div className="flex-1 px-8 pb-6 pt-4 flex flex-col justify-center bg-white">
-                    <h3 className="text-[#3F3F3F] text-[31.64px] font-bold leading-[40.68px] tracking-[-0.05em] mb-1 font-['Questrial',sans-serif]">
+                    <h3 className="text-[#3F3F3F] text-[31.64px] font-bold leading-[40.68px] tracking-[-0.01em] mb-1 font-['Questrial',sans-serif]">
                       {docData?.name || ""}
                     </h3>
                     <p className="text-[#3F3F3F] text-[19.44px] font-normal leading-[21.38px] tracking-[0] font-['Questrial',sans-serif]">

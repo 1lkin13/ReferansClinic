@@ -9,7 +9,6 @@ const DoctorsGrid: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate();
 
-  // Filter doctors based on search term
   const filteredDoctors = aboutDoctors.filter((doctor) => {
     // @ts-ignore
     const locData = data.aboutPage?.doctors?.[doctor.id.toString()];
@@ -47,15 +46,15 @@ const DoctorsGrid: React.FC = () => {
               onClick={() => navigate(`/doctors/${doctor.id}`)}
               className="bg-[#F9F9F9] overflow-hidden flex flex-col hover:shadow-lg transition-transform duration-300 hover:-translate-y-1 group border border-transparent hover:border-[#F0F0F0] mx-auto cursor-pointer"
               style={{
-                width: "400px",
-                height: "488.88px",
+                width: "360px",
+                height: "465px",
                 borderRadius: "21.53px",
               }}
             >
               {/* Image Container */}
               <div
                 className="w-full bg-[#F9F9F9] overflow-hidden relative shrink-0"
-                style={{ height: "365.09px" }}
+                style={{ height: "330px" }}
               >
                 <img
                   src={doctor.image}
@@ -65,9 +64,9 @@ const DoctorsGrid: React.FC = () => {
                 />
               </div>
 
-              {/* Text Content */}
-              <div className="px-8 pt-6 pb-8 flex flex-col justify-end flex-1">
-                <h3 className="text-[#303030] font-bold text-[29.21px] leading-[37.55px] tracking-[-0.05em] mb-2 text-left font-['Questrial',sans-serif]">
+              {/* Text Container */}
+              <div className="flex-1 flex flex-col justify-center items-start px-6 py-4">
+                <h3 className="text-[#303030]  tracking-wide font-bold text-[29.21px] leading-[37.55px]  mb-2 text-left font-['Questrial',sans-serif]">
                   {locData?.name || doctor.name}
                 </h3>
                 <p className="text-[#303030] font-normal text-[17.94px] leading-[19.73px] tracking-[0] opacity-70 text-left font-['Questrial',sans-serif]">

@@ -12,35 +12,36 @@
       "phone": "*0111",
       "label": "Call Center"
     },
+    "searchPlaceholder": "Axtarış",
     "navigation": [
       {
-        "id": "haqqimizda",
+        "id": "about",
         "label": "Haqqımızda",
-        "path": "/haqqimizda",
+        "path": "/about",
         "children": [
-          { "id": "tariximiz", "label": "Tariximiz", "path": "/haqqimizda/tariximiz" },
-          { "id": "missiya", "label": "Missiya və məqsəd", "path": "/haqqimizda/missiya" },
-          { "id": "keyfiyyet_siyaseti", "label": "Keyfiyyət siyasəti", "path": "/haqqimizda/keyfiyyet-siyaseti" },
-          { "id": "keyfiyyete_nezaret", "label": "Keyfiyyətə nəzarət", "path": "/haqqimizda/keyfiyyete-nezaret" },
-          { "id": "sertifikatlar", "label": "Sertifikatlar", "path": "/haqqimizda/sertifikatlar" },
-          { "id": "beynelxalq_emekdasliq", "label": "Beynəlxalq Əməkdaşlıq", "path": "/haqqimizda/beynelxalq-emekdasliq" },
+          { "id": "tariximiz", "label": "Tariximiz", "path": "/about/tariximiz" },
+          { "id": "missiya", "label": "Missiya və məqsəd", "path": "/about/missiya" },
+          { "id": "keyfiyyet_siyaseti", "label": "Keyfiyyət siyasəti", "path": "/about/keyfiyyet-siyaseti" },
+          { "id": "keyfiyyete_nezaret", "label": "Keyfiyyətə nəzarət", "path": "/about/keyfiyyete-nezaret" },
+          { "id": "sertifikatlar", "label": "Sertifikatlar", "path": "/about/sertifikatlar" },
+          { "id": "beynelxalq_emekdasliq", "label": "Beynəlxalq Əməkdaşlıq", "path": "/about/beynelxalq-emekdasliq" },
           {
             "id": "merkezlerimiz",
             "label": "Mərkəzlərimiz",
-            "path": "/haqqimizda/merkezlerimiz",
+            "path": "/about/merkezlerimiz",
             "children": [
-              { "id": "basgicellenme", "label": "Başgicəllənmə Mərkəzi", "path": "/merkezlerimiz/basgicellenme" },
-              { "id": "estetik", "label": "Estetik və Plastik Cərrahiyyə Mərkəzi", "path": "/merkezlerimiz/estetik" },
-              { "id": "ses", "label": "Səs Mərkəzi", "path": "/merkezlerimiz/ses" },
-              { "id": "esitme", "label": "Eşitmə Mərkəzi", "path": "/merkezlerimiz/esitme" },
+              { "id": "basgicellenme", "label": "Başgicəllənmə Mərkəzi", "path": "/about/merkezlerimiz/basgicellenme" },
+              { "id": "estetik", "label": "Estetik və Plastik Cərrahiyyə Mərkəzi", "path": "/about/merkezlerimiz/estetik" },
+              { "id": "ses", "label": "Səs Mərkəzi", "path": "/about/merkezlerimiz/ses" },
+              { "id": "esitme", "label": "Eşitmə Mərkəzi", "path": "/about/merkezlerimiz/esitme" },
               { "id": "uz_cene", "label": "Üz və Çənə Cərrahiyyə Mərkəzi", "path": "/merkezlerimiz/uz-cene" },
               { "id": "astma", "label": "Astma və Ağciyər Mərkəzi", "path": "/merkezlerimiz/astma" },
               { "id": "yuxu", "label": "Yuxu Mərkəzi", "path": "/merkezlerimiz/yuxu" },
               { "id": "koxlear", "label": "Koxlear implantasiya", "path": "/merkezlerimiz/koxlear" }
             ]
           },
-          { "id": "hekimlerimiz", "label": "Həkimlərimiz", "path": "/haqqimizda/hekimlerimiz" },
-          { "id": "memnunluq", "label": "Məmnunluq anketi", "path": "/haqqimizda/memnunluq" }
+          { "id": "hekimlerimiz", "label": "Həkimlərimiz", "path": "/about" },
+          { "id": "memnunluq", "label": "Məmnunluq anketi", "path": "/about/memnunluq" }
         ]
       },
       { "id": "xidmetler", "label": "Xidmətlər", "path": "/xidmetler" },
@@ -71,7 +72,7 @@
     }
   ],
   "footer": {
-    "tagline": "Qafqazın ilk və yeganə\nQulaq Burun Bogaz \n və Baş-Boyun Mərkəzi!",
+    "tagline": "Qafqazın İlk və Yeganə\nQulaq Burun Boğaz\nvə Baş-Boyun Mərkəzi!",
     "contactTitle": "ƏLAQƏ",
     "phone": "*0111",
     "email": "info@lorhospital.az",
@@ -102,6 +103,14 @@
       "4": {
         "title": "Lor əməliyyatı zamanı anesteziya",
         "date": "28 mart 2025"
+      },
+      "5": {
+        "title": "Burun xəstəlikləri",
+        "date": "24 iyun 2025"
+      },
+      "6": {
+        "title": "Baş-Boyun cərrahiyyəsi",
+        "date": "1 avqust 2025"
       }
     }
   },
@@ -212,5 +221,11 @@
         "treatments": "Müayinə və müalicə istiqamətləri"
       }
     }
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Səhifə tapılmadı",
+    "message": "Axtardığınız səhifə mövcud deyil və ya ünvanı dəyişdirilib.",
+    "button": "Ana Səhifəyə Qayıt"
   }
 }

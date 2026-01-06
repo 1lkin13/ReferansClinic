@@ -12,22 +12,23 @@
       "phone": "*0111",
       "label": "Call Center"
     },
+    "searchPlaceholder": "Search",
     "navigation": [
       {
-        "id": "haqqimizda",
+        "id": "about",
         "label": "About Us",
-        "path": "/haqqimizda",
+        "path": "/about",
         "children": [
-          { "id": "tariximiz", "label": "Our History", "path": "/haqqimizda/tariximiz" },
-          { "id": "missiya", "label": "Mission & Vision", "path": "/haqqimizda/missiya" },
-          { "id": "keyfiyyet_siyaseti", "label": "Quality Policy", "path": "/haqqimizda/keyfiyyet-siyaseti" },
-          { "id": "keyfiyyete_nezaret", "label": "Quality Control", "path": "/haqqimizda/keyfiyyete-nezaret" },
-          { "id": "sertifikatlar", "label": "Certificates", "path": "/haqqimizda/sertifikatlar" },
-          { "id": "beynelxalq_emekdasliq", "label": "International Cooperation", "path": "/haqqimizda/beynelxalq-emekdasliq" },
+          { "id": "tariximiz", "label": "Our History", "path": "/about" },
+          { "id": "missiya", "label": "Mission & Vision", "path": "/about" },
+          { "id": "keyfiyyet_siyaseti", "label": "Quality Policy", "path": "/about/keyfiyyet-siyaseti" },
+          { "id": "keyfiyyete_nezaret", "label": "Quality Control", "path": "/about" },
+          { "id": "sertifikatlar", "label": "Certificates", "path": "/about" },
+          { "id": "beynelxalq_emekdasliq", "label": "International Cooperation", "path": "/about" },
           {
             "id": "merkezlerimiz",
             "label": "Our Centers",
-            "path": "/haqqimizda/merkezlerimiz",
+            "path": "/about/merkezlerimiz",
             "children": [
               { "id": "basgicellenme", "label": "Vertigo Center", "path": "/merkezlerimiz/basgicellenme" },
               { "id": "estetik", "label": "Aesthetic & Plastic Surgery", "path": "/merkezlerimiz/estetik" },
@@ -39,8 +40,8 @@
               { "id": "koxlear", "label": "Cochlear Implantation", "path": "/merkezlerimiz/koxlear" }
             ]
           },
-          { "id": "hekimlerimiz", "label": "Our Doctors", "path": "/haqqimizda/hekimlerimiz" },
-          { "id": "memnunluq", "label": "Satisfaction Survey", "path": "/haqqimizda/memnunluq" }
+          { "id": "hekimlerimiz", "label": "Our Doctors", "path": "/about/hekimlerimiz" },
+          { "id": "memnunluq", "label": "Satisfaction Survey", "path": "/about/memnunluq" }
         ]
       },
       { "id": "xidmetler", "label": "Services", "path": "/xidmetler" },
@@ -102,6 +103,14 @@
       "4": {
         "title": "Anesthesia during ENT surgery",
         "date": "March 28, 2025"
+      },
+      "5": {
+        "title": "Nose Diseases",
+        "date": "June 24, 2025"
+      },
+      "6": {
+        "title": "Head and Neck Surgery",
+        "date": "August 1, 2025"
       }
     }
   },
@@ -212,5 +221,11 @@
         "treatments": "Examination and treatment directions"
       }
     }
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Page Not Found",
+    "message": "The page you are looking for might have been removed or is temporarily unavailable.",
+    "button": "Back to Home"
   }
 }

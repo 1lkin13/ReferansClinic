@@ -109,7 +109,7 @@ const DoctorDetail: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex gap-4 md:gap-24 border-b-4 border-[#EBEBEB] mb-6 md:mb-8 justify-center overflow-x-auto">
+      <div className="flex gap-2 md:gap-16 border-b-4 border-[#EBEBEB] mb-6 md:mb-8 justify-center overflow-x-auto">
         {[
           { id: "info", label: labels?.tabs?.info || "Məlumat" },
           {
@@ -123,11 +123,11 @@ const DoctorDetail: React.FC = () => {
             onClick={() => setActiveTab(tab.id as any)}
             className={`pb-2 md:pb-4 transition-colors relative text-center font-['Questrial',sans-serif] font-bold whitespace-nowrap ${
               activeTab === tab.id
-                ? "border-b-[5px] border-[#0095DA] text-[#303030] -mb-1"
+                ? "border-b-[5px] border-[#0095DA] text-[#303030] "
                 : "border-transparent text-[#9E9E9E] hover:text-[#0095DA]"
             }`}
             style={{
-              fontSize: window.innerWidth < 768 ? "18px" : "35px",
+              fontSize: window.innerWidth < 768 ? "14px" : "26px",
               lineHeight: "98%",
               letterSpacing: "0.01em",
             }}

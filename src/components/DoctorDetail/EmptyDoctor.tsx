@@ -27,7 +27,7 @@ const EmptyDoctor: React.FC = () => {
             Axtardığınız həkim mövcud deyil və ya silinib.
           </p>
           <a
-            href="/haqqimizda"
+            href="/about"
             className="inline-block bg-[#0095DA] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#0077b3] transition-colors font-['Questrial',sans-serif]"
           >
             Həkimlər Siyahısına Qayıt

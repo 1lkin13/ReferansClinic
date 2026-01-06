@@ -9,10 +9,9 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ activeTab, onTabChange }) => {
   const { data } = useLanguage();
 
-  // Find "Haqqımızda" navigation item to get its children
-  // Usually ID is "haqqimizda" based on az.json structure
+
   const aboutNav = data?.header?.navigation?.find(
-    (item: any) => item.id === "haqqimizda"
+    (item: any) => item.id === "about"
   );
   const menuItems = aboutNav?.children || [];
 
@@ -30,10 +29,9 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, onTabChange }) => {
               ${isActive ? "bg-[#f7faff]" : "bg-[#f7faff] hover:bg-[#f1f4fc]"}
             `}
             style={{
-              width: "432.92px",
-              height: "78.31px",
+              width: "380px",
+              height: "70px",
               borderRadius: "13.62px",
-              // border: isActive ? '0.57px solid #0095DA' : '0.57px solid transparent',
             }}
           >
             <span

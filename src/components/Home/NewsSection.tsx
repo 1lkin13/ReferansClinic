@@ -10,8 +10,7 @@ const NewsSection: React.FC = () => {
   const gap = 24;
 
   const combinedData = newsImages.map((imgItem) => {
-    // Map ID to corresponding text key
-    // Provided JSON keys are "1", "2", "3", "4" matching IDs
+    
     const textData = data.newsSection.items[imgItem.id.toString() as keyof typeof data.newsSection.items];
     
     return {

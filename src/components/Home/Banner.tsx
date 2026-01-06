@@ -1,15 +1,15 @@
-import React from 'react'
-import { useLanguage } from '../../context/LanguageContext.tsx'
-import moni from '../../assets/moni.png'
-import arrowOutward from '../../assets/Footer/arrow_outward.svg'
+import React from "react";
+import { useLanguage } from "../../context/LanguageContext.tsx";
+import moni from "../../assets/moni.png";
+import arrowOutward from "../../assets/Footer/arrow_outward.svg";
+import FloatingContactButtons from "./FloatingContactButtons.tsx";
 
 const Banner: React.FC = () => {
-  const { data } = useLanguage()
-  const { title, button } = data.banner
+  const { data } = useLanguage();
+  const { title, button } = data.banner;
 
   return (
     <section className="relative w-full h-125 overflow-hidden ">
-
       {/* IMAGE SIDE */}
       <div className="absolute inset-0 z-0">
         <img
@@ -20,16 +20,15 @@ const Banner: React.FC = () => {
       </div>
 
       {/* CONTENT */}
-      <div className="relative z-10 h-full max-w-366 mx-auto px-6 sm:px-10  flex items-center">
-        <div className="max-w-120 flex flex-col gap-8">
-
+      <div className="relative z-10 h-full max-w-366 mx-auto px-6 sm:px-10 flex items-center justify-center md:justify-start">
+        <div className="max-w-120 flex flex-col gap-6 md:gap-8 items-center md:items-start text-center md:text-left">
           {/* TITLE */}
           <h1
             className="
               font-['Avant_Garde',sans-serif]
               font-bold
-              text-[45px]
-              leading-11.25
+              text-[32px] md:text-[45px]
+              leading-10 md:leading-11.25
               tracking-normal
               text-[#464646]
               whitespace-pre-line
@@ -49,7 +48,7 @@ const Banner: React.FC = () => {
               transition-all hover:scale-[1.03]
             "
           >
-            <span className="font-semibold text-base text-white">
+            <span className="font-['Avant_Garde',sans-serif] font-semibold text-base text-white">
               {button}
             </span>
 
@@ -66,12 +65,13 @@ const Banner: React.FC = () => {
               <img src={arrowOutward} alt="arrow" className="w-4 h-4" />
             </div>
           </button>
-
         </div>
       </div>
 
+      {/* Floating Contact Buttons */}
+      <FloatingContactButtons />
     </section>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;
